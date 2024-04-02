@@ -11,6 +11,7 @@ Converte coordenadas geográficas (latitude e longitude) em um endereço postal.
 #### Requisição: 
 - **Tipo:** `POST`
 - **Corpo da requisição (JSON):**
+  <br>
     ```json
     {
         "action": "getAddress",
