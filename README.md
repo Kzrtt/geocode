@@ -15,12 +15,14 @@ Converte coordenadas geográficas (latitude e longitude) em um endereço postal.
     {
         "action": "getAddress",
         "lat": "<latitude>",
-        "lng": "<longitude>"
+        "lng": "<longitude>",
+        "pass": "<pass>"
     }
     ```
 - **Parâmetros:**
     - `lat`: Latitude da localização.
     - `lng`: Longitude da localização.
+    - `pass`: senha para realizar a requisição
 
 #### Resposta:
 - **Tipo:** `application/json`
@@ -49,7 +51,8 @@ Converte um endereço postal em coordenadas geográficas (latitude e longitude).
         "number": "<número>",
         "city": "<cidade>",
         "state": "<sigla do estado>",
-        "postalCode": "<CEP>"
+        "postalCode": "<CEP>",
+        "pass": "<pass>"
     }
     ```
 - **Parâmetros:**
@@ -58,6 +61,7 @@ Converte um endereço postal em coordenadas geográficas (latitude e longitude).
     - `city` (opcional): Cidade do endereço.
     - `state` (opcional): Sigla do estado. Use as siglas brasileiras, como "SP" para São Paulo.
     - `postalCode` (opcional): Código Postal (CEP) do endereço.
+    - `pass`: Senha para realizar requisições
 
 #### Resposta:
 - **Tipo:** `application/json`
