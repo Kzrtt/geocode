@@ -61,7 +61,7 @@ Converte um endereço postal em coordenadas geográficas (latitude e longitude).
     - `city` (opcional): Cidade do endereço.
     - `state` (opcional): Sigla do estado. Use as siglas brasileiras, como "SP" para São Paulo.
     - `postalCode` (opcional): Código Postal (CEP) do endereço.
-    - `pass`: Senha para realizar requisições
+    - `pass`: Senha para realizar requisições.
 
 #### Resposta:
 - **Tipo:** `application/json`
